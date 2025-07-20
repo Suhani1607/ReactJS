@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: center;
+    background-color: beige;
+    padding: 10px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: dashed;
+    color: purple;
+
+}
+a:active{
+    color: red;
+}
+
+.active-link{
+    border: solid 2px red;
+    padding:5px;
+    border-radius: 10px;
+
+}
+
+.btn {
+    margin: 2px;
+    border: solid 2px black;
+
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(13, 13, 34);
+    color: white;
+}
+
+.Course {
+    margin: 2px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
