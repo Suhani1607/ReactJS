@@ -1,11 +1,12 @@
-import React from "react";
-import UserContextProvider from "./userContextProvider";
+import "./App.css";
 import Login from "./components/login";
 import Profile from "./components/profile";
+import UserContextProvider from "./context/UserContextProvider";
 
 function App() {
   return (
     <UserContextProvider>
+      <h1>Hello</h1>
       <Login />
       <Profile />
     </UserContextProvider>
